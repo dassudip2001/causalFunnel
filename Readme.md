@@ -2,15 +2,6 @@
 
 A comprehensive user analytics platform that tracks events, sessions, and user journeys in real-time. Built with modern web technologies for scalability and performance.
 
-## 📋 Table of Contents
-
-- [Setup Steps](#setup-steps)
-- [Tech Stack](#tech-stack)
-- [Assumptions & Trade-offs](#assumptions--trade-offs)
-- [Project Structure](#project-structure)
-
----
-
 ## 🚀 Setup Steps
 
 ### Prerequisites
@@ -89,7 +80,7 @@ cd ../tracking-script
 <script src="path/to/tracker.js"></script>
 <script>
   AnalyticsTracker.init({
-    apiUrl: 'http://localhost:5000/api/v1/analytics/event'
+    apiUrl: 'https://causalfunnel-latest.onrender.com/api/v1/analytics/event'
   });
 </script>
 ```
