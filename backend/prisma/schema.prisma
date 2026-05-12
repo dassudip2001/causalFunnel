@@ -1,0 +1,44 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+model User { 
+  id    String  @id @default(auto()) @map("_id") @db.ObjectId
+  email String  @unique
+  name  String?
+  role  Role    @default(USER)
+}
+
+
+enum Role {
+  USER
+  ADMIN
+}
+
+
+model Event{
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  sessionId   String   
+  eventType   EventType
+  pageUrl     String
+  timestamp   String
+  clickX     Int?
+  clickY     Int?
+  createdAt   DateTime @default(now())
+}
+
+enum EventType {
+  click
+  page_view
+}
