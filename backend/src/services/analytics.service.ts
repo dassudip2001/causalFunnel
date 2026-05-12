@@ -37,13 +37,14 @@ export async function getEventsBySessionId(sessionId: string) {
 export async function getSessions() {
   try {
     const sessions = await prisma.event.groupBy({
-      by: ["sessionId"],
+      by: ["sessionId", "pageUrl"],
       _count: {
         _all: true,
       },
       _max: {
         timestamp: true,
       },
+
       orderBy: {
         _max: {
           timestamp: "desc",
@@ -53,6 +54,7 @@ export async function getSessions() {
 
     const formattedSessions = sessions.map((session) => ({
       _id: session.sessionId,
+      pageUrl: session.pageUrl,
       totalEvents: session._count._all,
       lastActivity: session._max.timestamp,
     }));
