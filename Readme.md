@@ -30,7 +30,7 @@ bun install
 npm install
 
 # Set up environment variables
-cp .env.example .env.local
+cp .env.example .env
 
 # Configure .env.local with:
 # DATABASE_URL=mongodb+srv://username:password@cluster.mongodb.net/causalfunnel
