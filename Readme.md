@@ -35,7 +35,6 @@ cp .env.example .env
 # Configure .env.local with:
 # DATABASE_URL=mongodb+srv://username:password@cluster.mongodb.net/causalfunnel
 # PORT=3001
-# NODE_ENV=development
 
 # Generate Prisma client
 bunx prisma generate
@@ -80,7 +79,7 @@ cd ../tracking-script
 <script src="path/to/tracker.js"></script>
 <script>
   AnalyticsTracker.init({
-    apiUrl: 'https://causalfunnel-latest.onrender.com/api/v1/analytics/event'
+    apiUrl: 'https://causalfunnel-latest.onrender.com/api/v1/analytics/event' // Update with your backend URL
   });
 </script>
 ```
