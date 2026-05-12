@@ -14,7 +14,12 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { LayoutDashboardIcon, DatabaseIcon, CommandIcon } from "lucide-react";
+import {
+  LayoutDashboardIcon,
+  DatabaseIcon,
+  CommandIcon,
+  Logs,
+} from "lucide-react";
 import Link from "next/link";
 
 const data = {
@@ -36,6 +41,11 @@ const data = {
       name: "Sessions",
       url: "/sessions",
       icon: <DatabaseIcon />,
+    },
+    {
+      name: "Heatmaps",
+      url: "/heatmaps",
+      icon: <Logs />,
     },
   ],
 };
