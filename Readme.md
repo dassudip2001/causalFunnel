@@ -88,8 +88,8 @@ cd ../tracking-script
 # 2. Add to your HTML:
 <script src="path/to/tracker.js"></script>
 <script>
-  CausalFunnel.init({
-    apiUrl: 'url-to-your-backend/api/v1/analytics/event'
+  AnalyticsTracker.init({
+    apiUrl: 'http://localhost:5000/api/v1/analytics/event'
   });
 </script>
 ```
