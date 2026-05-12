@@ -31,6 +31,7 @@ export default function HeatmapsPage() {
       const res = await api.get<EventRead[]>("/analytics/sessions");
       return res.data;
     },
+    refetchInterval: 5000, // Poll every 5 seconds for real-time updates
   });
 
   const { data: heatmapData, isLoading: heatmapLoading } = useQuery({
@@ -43,6 +44,7 @@ export default function HeatmapsPage() {
       return res.data;
     },
     enabled: !!selectedPageUrl,
+    refetchInterval: 5000, // Poll every 5 seconds for real-time updates
   });
 
   // Get unique page URLs from sessions

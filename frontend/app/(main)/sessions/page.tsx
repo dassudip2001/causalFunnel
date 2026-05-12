@@ -35,6 +35,7 @@ export default function SessionsPage() {
       const res = await api.get<any[]>("/analytics/sessions");
       return res.data;
     },
+    refetchInterval: 5000, // Poll every 5 seconds for real-time updates
   });
 
   const { data: events, isLoading: eventsLoading } = useQuery({
@@ -46,6 +47,7 @@ export default function SessionsPage() {
       );
       return res.data;
     },
+    refetchInterval: 5000, // Poll every 5 seconds for real-time updates
     enabled: !!selectedSessionId,
   });
 
