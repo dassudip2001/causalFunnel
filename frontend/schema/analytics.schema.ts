@@ -14,7 +14,9 @@ export const EventWriteSchema = z.object({
 });
 
 export const EventReadSchema = EventWriteSchema.extend({
-  id: z.string(),
+  _id: z.string(),
+  pageUrl:z.string().optional(),
+  totalEvents: z.number().int().optional(),
 });
 
 // Type inference from schema

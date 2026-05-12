@@ -1,0 +1,341 @@
+curl --location 'http://localhost:5000/api/v1/analytics/click?pageUrl=file%3A%2F%2F%2FC%3A%2FUsers%2Fsudip%2FDownloads%2FCausalFunnel%2Ftracking-script%2Findex.html'
+
+{
+    "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+    "hitCount": [
+        {
+            "id": "6a02bb6f4ed7a74b687c38ee",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T05:32:31.734Z",
+            "clickX": 419,
+            "clickY": 276,
+            "createdAt": "2026-05-12T05:32:31.741Z"
+        },
+        {
+            "id": "6a02bb714ed7a74b687c38ef",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T05:32:33.091Z",
+            "clickX": 327,
+            "clickY": 496,
+            "createdAt": "2026-05-12T05:32:33.096Z"
+        },
+        {
+            "id": "6a02bb714ed7a74b687c38f0",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T05:32:33.919Z",
+            "clickX": 517,
+            "clickY": 466,
+            "createdAt": "2026-05-12T05:32:33.926Z"
+        },
+        {
+            "id": "6a02bb724ed7a74b687c38f1",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T05:32:34.748Z",
+            "clickX": 497,
+            "clickY": 336,
+            "createdAt": "2026-05-12T05:32:34.753Z"
+        },
+        {
+            "id": "6a02bb734ed7a74b687c38f2",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T05:32:35.776Z",
+            "clickX": 338,
+            "clickY": 339,
+            "createdAt": "2026-05-12T05:32:35.781Z"
+        },
+        {
+            "id": "6a02bb744ed7a74b687c38f3",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T05:32:36.862Z",
+            "clickX": 243,
+            "clickY": 294,
+            "createdAt": "2026-05-12T05:32:36.867Z"
+        },
+        {
+            "id": "6a02c2d7f940c4c7ac99f481",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:07.464Z",
+            "clickX": 674,
+            "clickY": 829,
+            "createdAt": "2026-05-12T06:04:07.481Z"
+        },
+        {
+            "id": "6a02c2ee38ebde9d4b02c512",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:29.419Z",
+            "clickX": 38,
+            "clickY": 96,
+            "createdAt": "2026-05-12T06:04:29.623Z"
+        },
+        {
+            "id": "6a02c2ee38ebde9d4b02c513",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:29.552Z",
+            "clickX": 38,
+            "clickY": 96,
+            "createdAt": "2026-05-12T06:04:29.623Z"
+        },
+        {
+            "id": "6a02c2ee38ebde9d4b02c514",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:29.678Z",
+            "clickX": 38,
+            "clickY": 96,
+            "createdAt": "2026-05-12T06:04:29.686Z"
+        },
+        {
+            "id": "6a02c2ee38ebde9d4b02c515",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:29.938Z",
+            "clickX": 38,
+            "clickY": 96,
+            "createdAt": "2026-05-12T06:04:29.945Z"
+        },
+        {
+            "id": "6a02c2ee38ebde9d4b02c516",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:29.279Z",
+            "clickX": 38,
+            "clickY": 96,
+            "createdAt": "2026-05-12T06:04:29.623Z"
+        },
+        {
+            "id": "6a02c2ee38ebde9d4b02c517",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:29.812Z",
+            "clickX": 38,
+            "clickY": 96,
+            "createdAt": "2026-05-12T06:04:29.819Z"
+        },
+        {
+            "id": "6a02c2ee38ebde9d4b02c518",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:30.062Z",
+            "clickX": 38,
+            "clickY": 96,
+            "createdAt": "2026-05-12T06:04:30.602Z"
+        },
+        {
+            "id": "6a02c2ee38ebde9d4b02c519",
+            "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+            "eventType": "click",
+            "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+            "timestamp": "2026-05-12T06:04:30.234Z",
+            "clickX": 38,
+            "clickY": 96,
+            "createdAt": "2026-05-12T06:04:30.603Z"
+        }
+    ]
+}
+
+
+curl --location 'http://localhost:5000/api/v1/analytics/sessions'
+
+[
+    {
+        "_id": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "totalEvents": 16,
+        "lastActivity": "2026-05-12T06:04:30.234Z"
+    },
+    {
+        "_id": "28d2bdac-1338-4ffe-9ad0-d3df7b10e92c",
+        "totalEvents": 1,
+        "lastActivity": "2026-05-12T06:03:28.424Z"
+    }
+]
+
+
+
+curl --location 'http://localhost:5000/api/v1/analytics/session/e1645107-11b8-4288-9163-a2d7a8b36309'
+
+
+[
+    {
+        "id": "6a02bb6b4ed7a74b687c38ed",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "page_view",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T05:32:26.682Z",
+        "clickX": null,
+        "clickY": null,
+        "createdAt": "2026-05-12T05:32:26.854Z"
+    },
+    {
+        "id": "6a02bb6f4ed7a74b687c38ee",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T05:32:31.734Z",
+        "clickX": 419,
+        "clickY": 276,
+        "createdAt": "2026-05-12T05:32:31.741Z"
+    },
+    {
+        "id": "6a02bb714ed7a74b687c38ef",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T05:32:33.091Z",
+        "clickX": 327,
+        "clickY": 496,
+        "createdAt": "2026-05-12T05:32:33.096Z"
+    },
+    {
+        "id": "6a02bb714ed7a74b687c38f0",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T05:32:33.919Z",
+        "clickX": 517,
+        "clickY": 466,
+        "createdAt": "2026-05-12T05:32:33.926Z"
+    },
+    {
+        "id": "6a02bb724ed7a74b687c38f1",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T05:32:34.748Z",
+        "clickX": 497,
+        "clickY": 336,
+        "createdAt": "2026-05-12T05:32:34.753Z"
+    },
+    {
+        "id": "6a02bb734ed7a74b687c38f2",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T05:32:35.776Z",
+        "clickX": 338,
+        "clickY": 339,
+        "createdAt": "2026-05-12T05:32:35.781Z"
+    },
+    {
+        "id": "6a02bb744ed7a74b687c38f3",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T05:32:36.862Z",
+        "clickX": 243,
+        "clickY": 294,
+        "createdAt": "2026-05-12T05:32:36.867Z"
+    },
+    {
+        "id": "6a02c2d7f940c4c7ac99f481",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:07.464Z",
+        "clickX": 674,
+        "clickY": 829,
+        "createdAt": "2026-05-12T06:04:07.481Z"
+    },
+    {
+        "id": "6a02c2ee38ebde9d4b02c512",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:29.419Z",
+        "clickX": 38,
+        "clickY": 96,
+        "createdAt": "2026-05-12T06:04:29.623Z"
+    },
+    {
+        "id": "6a02c2ee38ebde9d4b02c513",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:29.552Z",
+        "clickX": 38,
+        "clickY": 96,
+        "createdAt": "2026-05-12T06:04:29.623Z"
+    },
+    {
+        "id": "6a02c2ee38ebde9d4b02c514",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:29.678Z",
+        "clickX": 38,
+        "clickY": 96,
+        "createdAt": "2026-05-12T06:04:29.686Z"
+    },
+    {
+        "id": "6a02c2ee38ebde9d4b02c515",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:29.938Z",
+        "clickX": 38,
+        "clickY": 96,
+        "createdAt": "2026-05-12T06:04:29.945Z"
+    },
+    {
+        "id": "6a02c2ee38ebde9d4b02c516",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:29.279Z",
+        "clickX": 38,
+        "clickY": 96,
+        "createdAt": "2026-05-12T06:04:29.623Z"
+    },
+    {
+        "id": "6a02c2ee38ebde9d4b02c517",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:29.812Z",
+        "clickX": 38,
+        "clickY": 96,
+        "createdAt": "2026-05-12T06:04:29.819Z"
+    },
+    {
+        "id": "6a02c2ee38ebde9d4b02c518",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:30.062Z",
+        "clickX": 38,
+        "clickY": 96,
+        "createdAt": "2026-05-12T06:04:30.602Z"
+    },
+    {
+        "id": "6a02c2ee38ebde9d4b02c519",
+        "sessionId": "e1645107-11b8-4288-9163-a2d7a8b36309",
+        "eventType": "click",
+        "pageUrl": "file:///C:/Users/sudip/Downloads/CausalFunnel/tracking-script/index.html",
+        "timestamp": "2026-05-12T06:04:30.234Z",
+        "clickX": 38,
+        "clickY": 96,
+        "createdAt": "2026-05-12T06:04:30.603Z"
+    }
+]
