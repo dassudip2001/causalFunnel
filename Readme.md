@@ -76,7 +76,7 @@ cd ../tracking-script
 # To use the tracker on your website:
 # 1. Copy tracker.js to your web server
 # 2. Add to your HTML:
-<script src="path/to/tracker.js"></script>
+<script src="path/to/script.js"></script>
 <script>
   AnalyticsTracker.init({
     apiUrl: 'https://causalfunnel-latest.onrender.com/api/v1/analytics/event' // Update with your backend URL
