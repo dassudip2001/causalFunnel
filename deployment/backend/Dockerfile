@@ -5,7 +5,7 @@ FROM oven/bun:1 AS builder
 
 WORKDIR /app
 
-# Copy package files first (better caching)
+# Copy package files first 
 COPY package.json bun.lock ./
 
 # Install dependencies
@@ -32,7 +32,7 @@ COPY --from=builder /app/bun.lock ./
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/dist ./dist
 
-# Non-root user (security)
+# Non-root user 
 USER bun
 
 EXPOSE 5000
